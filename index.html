@@ -15,7 +15,11 @@
             <nav>
                 <ul>
                     <li><a href="#about">О нас</a></li>
+                    <li><a href="#history">История</a></li>
+                    <li><a href="#mission">Миссия</a></li>
                     <li><a href="#services">Услуги</a></li>
+                    <li><a href="#portfolio">Галерея</a></li>
+                    <li><a href="#team">Команда</a></li>
                     <li><a href="#contact">Контакты</a></li>
                 </ul>
             </nav>
@@ -34,6 +38,38 @@
             <h2>О компании</h2>
             <p>LEAFE работает в гармонии с природой, предлагая экологически чистые решения для вашего бизнеса и жизни.
             </p>
+        </div>
+    </section>
+
+    <section id="history" class="section">
+        <div class="container">
+            <h2>Наша история</h2>
+            <p>LEAFE начала свою деятельность в 2020 году как маленький проект, вдохновлённый природой и устойчивым
+                мышлением. Сегодня мы объединяем экологичные решения, дизайн и технологии, чтобы сделать мир
+                гармоничнее.</p>
+            <div class="history-gallery">
+                <img src="https://images.unsplash.com/photo-1549576490-b0b4831ef60a?auto=format&fit=crop&w=1000&q=80"
+                    alt="Nature" />
+                <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1000&q=80"
+                    alt="Leaves" />
+                <img src="https://images.unsplash.com/photo-1496483648148-47c686dc86a8?auto=format&fit=crop&w=1000&q=80"
+                    alt="Eco Office" />
+            </div>
+        </div>
+    </section>
+
+    <section id="mission" class="section">
+        <div class="container">
+            <h2>Наша миссия</h2>
+            <p>Мы стремимся к гармонии с природой, внедряя экологичные решения в каждую сферу жизни.</p>
+            <h3>Наши ценности</h3>
+            <ul class="values-list">
+                <li>Экология</li>
+                <li>Чистота</li>
+                <li>Устойчивость</li>
+                <li>Этика</li>
+                <li>Минимализм</li>
+            </ul>
         </div>
     </section>
 
@@ -57,6 +93,53 @@
         </div>
     </section>
 
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2>Галерея</h2>
+            <div class="gallery">
+                <img src="https://source.unsplash.com/400x300/?nature,design" alt="Проект 1" />
+                <img src="https://source.unsplash.com/400x300/?green,architecture" alt="Проект 2" />
+                <img src="https://source.unsplash.com/400x300/?eco,minimal" alt="Проект 3" />
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="section">
+        <div class="container">
+            <h2>Наша команда</h2>
+            <div class="team">
+                <div class="member">
+                    <img src="https://source.unsplash.com/200x200/?woman,smile" alt="Анна" />
+                    <p>Анна — Дизайнер</p>
+                </div>
+                <div class="member">
+                    <img src="https://source.unsplash.com/200x200/?man,nature" alt="Олег" />
+                    <p>Олег — Архитектор</p>
+                </div>
+                <div class="member">
+                    <img src="https://source.unsplash.com/200x200/?girl,green" alt="Мадина" />
+                    <p>Мадина — Вдохновитель проекта 💚</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="subscribe" class="section">
+        <div class="container">
+            <h2>Подпишитесь на наши обновления</h2>
+            <form class="subscribe-form">
+                <input type="email" placeholder="Ваш email" required />
+                <button type="submit">Подписаться</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="lang-switch section">
+        <div class="container">
+            <button onclick="switchLang()">Переключить язык: RU / EN</button>
+        </div>
+    </section>
+
     <section id="contact" class="section">
         <div class="container">
             <h2>Связаться с нами</h2>
@@ -69,12 +152,21 @@
         </div>
     </section>
 
+    <section id="map" class="section">
+        <div class="container">
+            <h2>Наш офис</h2>
+            <iframe src="https://www.google.com/maps/embed?..." width="100%" height="300" style="border:0;"
+                allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
     <footer>
         <div class="container">
             <p>&copy; 2025 LEAFE. Все права защищены.</p>
         </div>
     </footer>
 
+    <button id="scrollTopBtn" title="Наверх">↑</button>
     <script src="script.js"></script>
 </body>
 
